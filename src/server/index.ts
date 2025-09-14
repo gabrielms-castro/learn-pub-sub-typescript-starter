@@ -1,7 +1,7 @@
 import amqp from 'amqplib';
 import { Channel } from 'diagnostics_channel';
 import process from 'process';
-import { publishJSON } from '../internal/pubsub/pub.js';
+import { publishJSON } from '../internal/pubsub/publish.js';
 import { ExchangePerilDirect, PauseKey } from '../internal/routing/routing.js';
 import type { PlayingState } from '../internal/routing/routing.js';
 
