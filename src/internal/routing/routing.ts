@@ -7,5 +7,5 @@ export const ExchangePerilDirect = "peril_direct";
 export const ExchangePerilTopic = "peril_topic";
 
 export type PlayingState = {
-    IsPaused: boolean
+    isPaused: boolean
 }
